@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: #fdf0e6;
+    padding: 3% 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon{
+    color: black;
+    font-size: 24px;
+}
+.mr{
+    margin-right: 10px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 43px;
+    color: black;
+    margin-bottom: 50px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+h2{
+    font-weight: 500;
+    font-size: 63px;
+    line-height: 78px;
+}
+.col-img{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    margin-right: 60px;
+}
+.mr-30{
+    margin-left: 30px;
+}
+p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 30px 0;
+}
+.form-row{
+    display: flex;
+    width: 100%;
+}
+.email{
+    padding: 10% 13%;
+    margin: 70px 0;
+}
+.btn{
+    background: rgb(214, 137, 137);
+    padding: 17% 17%;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid rgb(243, 89, 89);
+    margin-left: 50px;
+    margin-top: 65px;
+    height: 60px;
+    width: 100px;
+}
+.email{
+    margin-bottom: 30px;
+}
+.col-footer{
+   font-weight: 500; 
+   font-size: 24px;
+   line-height: 33px;
+}
+.p-footer{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: 'poppins';
+}
